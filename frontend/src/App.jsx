@@ -1,4 +1,5 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
 import MovieCard from "./components/MovieCard";
 import Favorites from "./pages/Favorites";
 import Home from "./pages/Home";
