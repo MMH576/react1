@@ -1,18 +1,18 @@
-import { link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <link to="/">Movie App</link>
+        <Link to="/">Movie App</Link>
       </div>
       <div className="navbar-links">
-        <link to="/" className="nav-link">
+        <Link to="/" className="nav-link">
           Home
-        </link>
-        <link to="/favorites" className="nav-link">
+        </Link>
+        <Link to="/favorites" className="nav-link">
           Favorites
-        </link>
+        </Link>
       </div>
     </nav>
   );
